@@ -9,14 +9,6 @@
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens)
 
-## 📸 Скриншоты
-
-### Авторизация
-![Login](screenshots/login.png)
-
-### Дашборд
-![Dashboard](screenshots/dashboard.png)
-
 ## ⚡ Быстрый старт
 
 ### Установка
