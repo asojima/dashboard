@@ -9,8 +9,34 @@
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens)
 
-## ⚡ Быстрый старт
+### Тестовые пользователи
+Логин	Пароль	Роль
+admin	admin123	Администратор
+user	user123	Пользователь
 
+## 📊 Функционал
+✅ JWT авторизация с логином/паролем
+✅ Регистрация новых пользователей
+✅ Интерактивный дашборд с графиками
+✅ Фильтрация по категориям и товарам
+✅ Экспорт данных в CSV
+✅ Автодокументация API
+
+## 📝 API Endpoints
+  Метод	Путь	Описание
+  POST	/login	Получение JWT токена
+  POST	/register	Регистрация
+  GET	/sales	Список продаж
+  GET	/sales/stats	Статистика
+  GET	/sales/by_category	Выручка по категориям
+  GET	/sales/top_products	Топ товаров
+
+## 🔒 Безопасность
+  JWT токены с ограниченным временем жизни (30 мин)
+  Хеширование паролей (SHA256)
+  Защита всех эндпоинтов, кроме /login и /register
+
+## ⚡ Быстрый старт
 ### Установка
 ```bash
 git clone https://github.com/твой-ник/dashboard-sales.git
