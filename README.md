@@ -1,8 +1,8 @@
-# 📊 Sales Dashboard
+# Sales Dashboard
 
 > Аналитический дашборд для визуализации продаж с JWT авторизацией
 
-## 🚀 Технологии
+## Технологии
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -14,7 +14,7 @@
 admin	admin123	Администратор
 user	user123	Пользователь
 
-## 📊 Функционал
+## Функционал
 ✅ JWT авторизация с логином/паролем
 ✅ Регистрация новых пользователей
 ✅ Интерактивный дашборд с графиками
@@ -22,7 +22,7 @@ user	user123	Пользователь
 ✅ Экспорт данных в CSV
 ✅ Автодокументация API
 
-## 📝 API Endpoints
+## API Endpoints
   Метод	Путь	Описание
   POST	/login	Получение JWT токена
   POST	/register	Регистрация
@@ -31,12 +31,12 @@ user	user123	Пользователь
   GET	/sales/by_category	Выручка по категориям
   GET	/sales/top_products	Топ товаров
 
-## 🔒 Безопасность
+## Безопасность
   JWT токены с ограниченным временем жизни (30 мин)
   Хеширование паролей (SHA256)
   Защита всех эндпоинтов, кроме /login и /register
   
-## ⚡ Быстрый старт
+## Быстрый старт
 ### Установка
 ```bash
 git clone https://github.com/asojima/dashboard-sales.git
