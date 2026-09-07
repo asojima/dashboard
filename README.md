@@ -35,10 +35,20 @@ user	user123	Пользователь
   JWT токены с ограниченным временем жизни (30 мин)
   Хеширование паролей (SHA256)
   Защита всех эндпоинтов, кроме /login и /register
-
+  
 ## ⚡ Быстрый старт
 ### Установка
 ```bash
 git clone https://github.com/asojima/dashboard-sales.git
 cd dashboard-sales
 pip install -r requirements.txt
+
+```
+# 1. Инициализация БД
+python init_db.py
+
+# 2. Запуск бэкенда
+uvicorn main:app --reload --port 8000
+
+# 3. Запуск дашборда (в новом терминале)
+streamlit run dashboard.py
