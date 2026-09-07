@@ -39,6 +39,6 @@ user	user123	Пользователь
 ## ⚡ Быстрый старт
 ### Установка
 ```bash
-git clone https://github.com/твой-ник/dashboard-sales.git
+git clone https://github.com/asojima/dashboard-sales.git
 cd dashboard-sales
 pip install -r requirements.txt
